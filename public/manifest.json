@@ -1,6 +1,6 @@
 {
-  "name": "Riad Marrakech",
-  "short_name": "Riad",
+  "name": "Fusion",
+  "short_name": "Fusion",
   "description": "Gestion de location Airbnb - Suivi des revenus et dépenses",
   "start_url": "/",
   "display": "standalone",

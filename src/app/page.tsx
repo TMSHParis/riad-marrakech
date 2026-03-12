@@ -65,8 +65,8 @@ export default function Dashboard() {
       {/* Header */}
       <div className="bg-gradient-to-br from-terracotta-500 to-terracotta-600 px-5 pt-12 pb-8 rounded-b-[2rem] shadow-lg">
         <div className="text-center">
-          <h1 className="font-[family-name:var(--font-playfair)] text-3xl font-bold text-white tracking-wide">
-            Riad Marrakech
+          <h1 className="font-sans text-3xl font-bold text-white tracking-wide">
+            Fusion
           </h1>
           <p className="text-terracotta-100 text-sm mt-1 tracking-widest uppercase">
             Gestion Airbnb
@@ -169,7 +169,7 @@ export default function Dashboard() {
             }`}>
               <Users className={`w-4.5 h-4.5 ${isPositive ? 'text-olive-500' : 'text-deep-red-500'}`} />
             </div>
-            <h2 className="font-[family-name:var(--font-playfair)] text-lg font-bold text-midnight">
+            <h2 className="font-sans text-lg font-bold text-midnight">
               Partage 50/50
             </h2>
           </div>
@@ -198,7 +198,7 @@ export default function Dashboard() {
             {/* Partenaire */}
             <div className="flex-1 text-center py-3">
               <p className="text-xs uppercase tracking-wider text-sand-500 font-medium mb-1">
-                Partenaire
+                Amélia
               </p>
               <p className={`text-xl font-bold ${isPositive ? 'text-olive-500' : 'text-deep-red-500'}`}>
                 {formatMAD(split)}
@@ -213,7 +213,7 @@ export default function Dashboard() {
         {/* Recent Stays */}
         <div className="bg-white rounded-2xl p-5 shadow-sm border border-sand-100">
           <div className="flex items-center justify-between mb-4">
-            <h2 className="font-[family-name:var(--font-playfair)] text-lg font-bold text-midnight">
+            <h2 className="font-sans text-lg font-bold text-midnight">
               Séjours récents
             </h2>
             <Link
@@ -256,7 +256,7 @@ export default function Dashboard() {
 
         {/* Yearly Overview */}
         <div className="bg-white rounded-2xl p-5 shadow-sm border border-sand-100">
-          <h2 className="font-[family-name:var(--font-playfair)] text-lg font-bold text-midnight mb-4">
+          <h2 className="font-sans text-lg font-bold text-midnight mb-4">
             Aperçu {year}
           </h2>
 

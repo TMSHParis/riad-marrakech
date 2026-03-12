@@ -150,7 +150,7 @@ export default function SejoursPage() {
           <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-terracotta-50">
             <Moon size={28} className="text-terracotta-400" />
           </div>
-          <h2 className="font-[family-name:var(--font-playfair)] text-lg font-semibold text-midnight">
+          <h2 className="font-sans text-lg font-semibold text-midnight">
             Aucun séjour
           </h2>
           <p className="mt-1.5 text-sm text-sand-500 max-w-[260px]">
@@ -164,7 +164,7 @@ export default function SejoursPage() {
         <div key={group.key} className="mb-2">
           {/* Month header */}
           <div className="sticky top-0 z-10 bg-sand-50/95 backdrop-blur-sm px-5 py-2.5">
-            <h2 className="font-[family-name:var(--font-playfair)] text-sm font-semibold text-terracotta-700 uppercase tracking-wide">
+            <h2 className="font-sans text-sm font-semibold text-terracotta-700 uppercase tracking-wide">
               {group.label}
             </h2>
           </div>

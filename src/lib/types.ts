@@ -37,6 +37,14 @@ export interface Settings {
   exchange_rate_eur_to_mad: number;
 }
 
+export interface Contact {
+  id: string;
+  name: string;
+  fonction: string;
+  phone: string;
+  created_at: string;
+}
+
 export interface MonthlyStats {
   totalRevenue: number;
   totalExpenses: number;

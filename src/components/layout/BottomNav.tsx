@@ -2,12 +2,13 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, CalendarDays, Receipt, Settings } from 'lucide-react';
+import { LayoutDashboard, CalendarDays, Receipt, Phone, Settings } from 'lucide-react';
 
 const tabs = [
   { href: '/', label: 'Tableau', icon: LayoutDashboard },
   { href: '/sejours', label: 'Séjours', icon: CalendarDays },
   { href: '/depenses', label: 'Dépenses', icon: Receipt },
+  { href: '/contacts', label: 'Contacts', icon: Phone },
   { href: '/parametres', label: 'Réglages', icon: Settings },
 ];
 

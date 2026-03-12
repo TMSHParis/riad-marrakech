@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { BottomNav } from "@/components/layout/BottomNav";
 
@@ -8,19 +8,14 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Riad Marrakech",
+  title: "Fusion",
   description: "Gestion de location Airbnb - Suivi des revenus et dépenses",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Riad Marrakech",
+    title: "Fusion",
   },
 };
 
@@ -44,7 +39,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
       </head>
       <body
-        className={`${inter.variable} ${playfair.variable} font-[family-name:var(--font-inter)] antialiased`}
+        className={`${inter.variable} font-[family-name:var(--font-inter)] antialiased`}
       >
         <main className="min-h-screen pb-safe max-w-lg mx-auto">
           {children}

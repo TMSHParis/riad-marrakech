@@ -180,7 +180,7 @@ export default function DepensesPage() {
         /* Empty state */
         <div className="flex flex-col items-center justify-center py-20 px-5">
           <div className="text-5xl mb-4">📭</div>
-          <p className="text-midnight font-[family-name:var(--font-playfair)] text-lg font-semibold">
+          <p className="text-midnight font-sans text-lg font-semibold">
             Aucune dépense
           </p>
           <p className="text-sand-400 text-sm mt-1 text-center">
@@ -196,7 +196,7 @@ export default function DepensesPage() {
             <div key={group.key}>
               {/* Month header */}
               <div className="flex items-center justify-between mb-3">
-                <h2 className="font-[family-name:var(--font-playfair)] text-base font-bold text-midnight">
+                <h2 className="font-sans text-base font-bold text-midnight">
                   {group.label}
                 </h2>
                 <span className="text-sm font-semibold text-deep-red-500">

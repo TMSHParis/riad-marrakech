@@ -40,7 +40,7 @@ export default function ParametresPage() {
       <div className="px-5 space-y-6">
         {/* Exchange Rate Card */}
         <div className="bg-white border border-sand-200 rounded-2xl p-5">
-          <h2 className="font-[family-name:var(--font-playfair)] text-lg font-semibold text-midnight mb-4">
+          <h2 className="font-sans text-lg font-semibold text-midnight mb-4">
             Taux de change
           </h2>
 
@@ -84,7 +84,7 @@ export default function ParametresPage() {
 
         {/* App Info Section */}
         <div className="bg-white border border-sand-200 rounded-2xl p-5">
-          <h2 className="font-[family-name:var(--font-playfair)] text-lg font-semibold text-midnight mb-4">
+          <h2 className="font-sans text-lg font-semibold text-midnight mb-4">
             À propos
           </h2>
 
@@ -95,7 +95,7 @@ export default function ParametresPage() {
             </div>
             <div className="flex justify-between">
               <span className="text-sand-500">Application</span>
-              <span className="text-midnight font-medium">Riad Marrakech</span>
+              <span className="text-midnight font-medium">Fusion</span>
             </div>
             <p className="text-sand-500 pt-1">
               Application de gestion de location Airbnb

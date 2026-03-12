@@ -6,7 +6,7 @@ interface PageHeaderProps {
 export function PageHeader({ title, subtitle }: PageHeaderProps) {
   return (
     <header className="px-5 pt-6 pb-4">
-      <h1 className="font-[family-name:var(--font-playfair)] text-2xl font-bold text-midnight">
+      <h1 className="text-2xl font-bold text-midnight">
         {title}
       </h1>
       {subtitle && (
