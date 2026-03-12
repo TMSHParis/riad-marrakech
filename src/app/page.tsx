@@ -372,12 +372,12 @@ function LoadingSkeleton() {
         <div className="bg-white rounded-2xl p-5 shadow-sm border border-sand-100">
           <div className="h-5 w-28 bg-sand-200 rounded mb-4" />
           <div className="space-y-3">
-            {Array.from({ length: 12 }, (_, i) => (
+            {[65, 40, 72, 55, 48, 60, 35, 70, 50, 45, 68, 52].map((w, i) => (
               <div key={i} className="flex items-center gap-2.5">
                 <div className="w-4 h-3 bg-sand-100 rounded" />
                 <div className="flex-1 space-y-1">
-                  <div className="h-2.5 bg-sand-100 rounded-full" style={{ width: `${30 + Math.random() * 50}%` }} />
-                  <div className="h-2.5 bg-sand-100 rounded-full" style={{ width: `${20 + Math.random() * 40}%` }} />
+                  <div className="h-2.5 bg-sand-100 rounded-full" style={{ width: `${w}%` }} />
+                  <div className="h-2.5 bg-sand-100 rounded-full" style={{ width: `${w * 0.6}%` }} />
                 </div>
               </div>
             ))}
