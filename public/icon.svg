@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#c45d3e"/>
+  <g transform="translate(256,220)">
+    <!-- Riad arch -->
+    <path d="M-100,80 L-100,-20 Q-100,-120 0,-120 Q100,-120 100,-20 L100,80" fill="none" stroke="#faf8f5" stroke-width="16" stroke-linecap="round"/>
+    <!-- Door -->
+    <rect x="-30" y="10" width="60" height="70" rx="30" fill="none" stroke="#faf8f5" stroke-width="12"/>
+    <!-- Star -->
+    <path d="M0,-70 L10,-45 L35,-45 L15,-28 L22,-5 L0,-20 L-22,-5 L-15,-28 L-35,-45 L-10,-45 Z" fill="#e8e0d5"/>
+    <!-- Ground line -->
+    <line x1="-120" y1="80" x2="120" y2="80" stroke="#faf8f5" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>
